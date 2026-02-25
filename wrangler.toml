@@ -1,0 +1,8 @@
+name = "100apps-template"
+compatibility_date = "2026-01-20"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "100apps"
+database_id = "5d75f898-a413-44fd-9ca2-4e3e19c56496"
