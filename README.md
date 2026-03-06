@@ -21,5 +21,7 @@ Execution:
 ```
 Review `IDEAS.md` and create a checklist file for each app and then start implementing. Keep track of each checklist and check items off the list as you complete them.
 
-This repository contains a scaffold: a Cloudflare Pages website with optional functions for backend capability, and D1 for database (the binding is already set up, just create and run necessary migrations if needed). Replace the placeholder routes in the App file with the apps. Each should have its own distinct visual style (use the frontend-design skill in .agents/skills) and a distinct icon for the home gallery rather than the default gradient. Each should be placed in its own directory in src/ with a top-level component included in the router in src/App.tsx. Use chrome mode or MCP and iterate until each app is beautiful and functional.
+This repository contains a scaffold: a Cloudflare Pages website with optional functions for backend capability, and D1 for database (the binding is already set up, just create and run necessary migrations if needed). Replace the placeholder routes in the App file with the apps. Each app should have its own distinct visual style (use the frontend-design skill in .agents/skills) and a distinct icon for the home gallery rather than the default gradient. Each should be placed in its own directory in src/ with a top-level component included in the router in src/App.tsx. Use chrome mode or MCP and iterate until each app is beautiful and functional.
+
+Do not modify the scaffold beyond inserting each app into the main gallery page.
 ```
