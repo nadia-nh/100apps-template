@@ -4,11 +4,11 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "yarn wrangler pages dev",
+		"dev": "vite",
 		"build": "tsc -b && yarn wrangler pages build",
 		"lint": "biome lint .",
 		"format": "biome format --write .",
-		"preview": "yarn wrangler pages dev",
+		"preview": "vite preview",
 		"deploy": "yarn build && yarn wrangler pages deploy dist"
 	},
 	"dependencies": {
